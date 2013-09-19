@@ -13,7 +13,6 @@ public class Solution {
         	r = r * 10  + x % 10;
         	x /= 10;
         }
-        
         return sig*r;
     }
     
